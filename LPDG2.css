@@ -1,0 +1,289 @@
+.Shrik{
+    font-family: 'Shrikhand', cursive;
+}
+.Rob{
+    font-family: 'Roboto', sans-serif;
+
+}
+.bold{
+    font-weight: bold;
+}
+.txtDN{
+    font-weight: normal;
+    text-align: center;
+}
+.ImgRestau{
+    width: 420px;
+    text-align: center;
+
+    margin:auto;
+
+}
+.center{
+    margin:auto;
+
+    text-align: center;
+
+}
+h1{
+    width:400px;
+    margin:auto;
+    display: flex;
+}
+h2{
+
+    margin-left: 2%;
+    display:flex;
+    justify-content: space-between;
+}
+h3{
+    border-bottom:2px solid rgb(92, 236, 229);
+    padding-bottom:5px;
+    width:30px;
+    margin-left:2%;
+}
+.r{
+    text-decoration: none;
+    width: 120px;
+}
+.l{
+    color: black;
+}
+.menu{
+
+    z-index:1;
+    position:relative;
+    top:-30px;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #f6f6f6;
+}
+.carte2{
+    background-color: white;
+    width:400px;
+    height:100px;
+    display:block;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    border-radius:20px;
+    margin:auto;
+    margin-bottom: 5px;
+    border:1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 0px grey;
+}
+.carte2{
+    animation-duration: 3s;
+    animation-name: div1;
+}
+
+.cP{
+    background: -webkit-linear-gradient(#a75ddc,#e872da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display:none;
+}
+.coeur{
+    display: flex;
+
+    width:40px;
+}
+
+.coeur:hover > .cV{
+    display:none;
+}
+.coeur:hover > .cP{
+    display: unset;
+}
+.wait{
+    height:70px;
+}
+
+@keyframes div1{
+    from{
+        opacity: 0;
+        margin-top: 20px;
+    }
+    to{
+        opacity:1;
+        margin-top: 0px;
+    }
+}
+.prin2{
+    width:350px;
+    margin-left:1%;
+    padding-top:4%
+
+}
+.charge2{
+
+    width:10px;
+    height:100px;
+    transform: scaleX(0);
+    transition: transform 500ms;
+    background-color: rgb(0, 255, 255);
+    transform-origin: 100% 50%;
+    float: right;
+    position:relative;
+    bottom:34px;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+
+}
+.carte2:hover > .charge2{
+    transform: scaleX(9);
+
+
+
+}
+.Accom2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding:1% 0 0 1%;
+}
+
+.inf2{
+
+    width:380px;
+    z-index:0;
+
+    display:flex;
+
+    position:relative;
+    top:25px;
+
+    
+}
+.prix2{
+    position:relative;
+    top:4px;
+}
+.icone2{
+
+    width:37px;
+
+    color: rgb(0, 255, 255);
+    position: relative;
+    left:335px;
+    bottom:40px;
+    z-index: 1;
+    display: none;
+    padding-top:5px;
+    padding-left:5px;
+    padding-bottom:5px;
+    margin-top:10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.carte2:hover > .icone2{
+    animation-name: slide2;
+    animation-duration: 1000ms;
+    display: block;
+}
+
+@keyframes slide2{
+    0%{
+        position: relative;
+        left: 420px;
+        opacity:0;
+    }
+    39%{
+        opacity:0;
+    }
+    40%{
+        opacity:100;
+    }
+    70%{
+        rotate:180deg;
+    }
+    100%{
+        position: relative;
+        left: 335px;
+        rotate: 360deg;
+    
+    }
+}
+.carte2:hover > .inf2{
+    width:309px;
+    animation-name: AccSli;
+    animation-duration:500ms;
+
+}
+@keyframes AccSli{
+    from{
+        width:380px;
+    }
+    to{
+        width:309px;
+    }
+}
+#BExplorer{
+    background:linear-gradient(to bottom right,#e872da,#a75ddc) ;
+    color:white;
+    font-size:1em;
+    width:250px;
+    height:70px;
+    border-radius: 40px;
+    border:none;
+
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+/*#end{
+    min-width: 400px;
+    color:white;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+    background-color: #353535;
+    margin:auto;
+    padding-top:50px;
+    position:relative;
+    bottom:50px;
+}*/
+#end{
+
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+    padding-left:5%;
+    padding-top:50px;
+    background-color: #353535;
+    margin:auto;
+    position:relative;
+    top:-30px;
+}
+.i{
+    padding-right:10px;
+}
+.txtwhite{
+    color: white;
+    text-decoration: none;
+}
+.LogoB{
+    color:white;
+    font-family: 'Shrikhand', cursive;
+}
+@media screen and (min-width:1048px){
+    #end{
+
+        color:white;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left:5%;
+        padding-right:10%;
+        padding-top:50px;
+        padding-bottom: 40px;
+        background-color: #353535;
+        margin:auto;
+    }
+}

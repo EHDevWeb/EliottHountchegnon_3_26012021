@@ -1,0 +1,253 @@
+h1{
+    font-family: 'Shrikhand', cursive;
+}
+
+.Texte{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+header{
+    text-align: center;
+}
+#LogoH{
+    width: 150px;
+
+}
+.bold{
+    font-weight: bolder;
+}
+#Position{
+    background-color: #eaeaea;
+    padding:0;
+    align-items: center;
+}
+#BlocRes{
+    border-top: 1px solid #cfcfcf;
+    background-color: #f6f6f6;
+    padding-bottom:15%;
+    text-align: center;
+
+}
+
+#BExplorer{
+    background:linear-gradient(to bottom right,#e872da,#a75ddc) ;
+    color:white;
+    font-size:1em;
+    width:250px;
+    height:70px;
+    border-radius: 40px;
+    border:none;
+    margin-top: 30px;
+    box-shadow: 3px 3px 5px 0px #999999;
+}
+
+.taille{
+    width: 360px;
+    margin: auto;
+    margin-bottom: 4%;;
+    padding: 30px 10px 30px 0px;
+    box-shadow: 3px 3px 5px 0px #e6e6e6;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+}
+
+.number{
+    background-color: #e570da;
+    color:white;
+    padding: 2px 7px 2px 7px;
+    border-radius: 20px;
+    position:relative;
+    left:-10px
+}
+.mar{
+    margin-left:20px;
+}
+.txtFon{
+    margin-left:25px;
+}
+#Restaurants{
+    background-color: #f6f6f6;
+    padding-bottom:10px;
+    align-items: center;
+}
+.DivRestau{
+
+    width: 400px;
+    padding-top: 0;
+    justify-self: center;
+    margin:auto;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px grey;
+}
+.ImgRestau{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.TxtRestau{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px 5px 5px;
+}
+
+.cP{
+    background: -webkit-linear-gradient(#a75ddc,#e872da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display:none;
+}
+.coeur{
+    display: flex;
+
+
+}
+
+.coeur:hover > .cV{
+    display:none;
+}
+.coeur:hover > .cP{
+    display: unset;
+}
+.Adresse{
+    padding-left:5px;
+    padding-bottom: 5px;
+}
+
+/*#end{
+
+    color:white;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-left:5%;
+    padding-top:50px;
+    background-color: #353535;
+    margin:auto;
+}
+.LogoB{
+
+    color:white;
+    font-family: 'Shrikhand', cursive;
+}
+.txtwhite{
+    color: white;
+
+}*/
+/*.lds-dual-ring {
+
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top:40%;
+
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: black transparent black transparent;
+    animation: lds-dual-ring 1.2s 3;
+    background-color:white;
+    opacity:0;
+
+    
+  }
+  .container{
+      margin:auto;
+
+      width:100px;
+  }*/
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+      display:block;
+      opacity:100%;
+    }
+    100% {
+      transform: rotate(360deg);
+      display:none;
+      opacity:0
+    }
+  }
+/*.main{
+    animation-name: hello ;
+
+    animation-duration: 5s;
+
+}*/
+@keyframes hello {
+    0%{
+        opacity:0;
+    }
+    69%{
+        opacity:0;
+    }    
+    70%{
+        opacity:1;
+        margin-top:20px;
+
+    }    
+
+    100%{
+        opacity:1;
+        margin-top:0px;
+    }
+}
+#end{
+
+    color:white;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-left:5%;
+    padding-top:50px;
+    background-color: #353535;
+    margin:auto;
+}
+.i{
+    padding-right:10px;
+}
+.txtwhite{
+    color: white;
+    text-decoration: none;
+}
+.LogoB{
+    color:white;
+    font-family: 'Shrikhand', cursive;
+}
+@media screen and (min-width:1048px){
+    #end{
+
+        color:white;
+        border:1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left:5%;
+        padding-right:10%;
+        padding-top:50px;
+        padding-bottom: 40px;
+        background-color: #353535;
+        margin:auto;
+    }
+}
+
+/*TO DO
+-coeur couleur + repli/vide         V
+-flex pour footer quand site grand  
+-les bonnes photos                  V
+-h2 en gras                         V*/
