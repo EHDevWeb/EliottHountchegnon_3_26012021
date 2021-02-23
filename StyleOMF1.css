@@ -123,27 +123,8 @@ header{
     padding-bottom: 5px;
 }
 
-/*#end{
 
-    color:white;
-    border:1px solid black;
-    display: flex;
-    flex-direction: column;
-    padding-left:5%;
-    padding-top:50px;
-    background-color: #353535;
-    margin:auto;
-}
-.LogoB{
-
-    color:white;
-    font-family: 'Shrikhand', cursive;
-}
-.txtwhite{
-    color: white;
-
-}*/
-/*.lds-dual-ring {
+.lds-dual-ring {
 
     width: 80px;
     height: 80px;
@@ -170,7 +151,7 @@ header{
       margin:auto;
 
       width:100px;
-  }*/
+  }
   @keyframes lds-dual-ring {
     0% {
       transform: rotate(0deg);
@@ -183,12 +164,12 @@ header{
       opacity:0
     }
   }
-/*.main{
+.main{
     animation-name: hello ;
 
     animation-duration: 5s;
 
-}*/
+}
 @keyframes hello {
     0%{
         opacity:0;
@@ -245,9 +226,3 @@ header{
         margin:auto;
     }
 }
-
-/*TO DO
--coeur couleur + repli/vide         V
--flex pour footer quand site grand  
--les bonnes photos                  V
--h2 en gras                         V*/
