@@ -14,8 +14,9 @@
 }
 .ImgRestau{
     width: 420px;
+    height:300px;
     text-align: center;
-
+    object-fit: cover;
     margin:auto;
 
 }
@@ -53,8 +54,8 @@ h3{
 
     z-index:1;
     position:relative;
-    top:-30px;
-
+    top:-50px;
+    padding-top:10px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color: #f6f6f6;
@@ -152,7 +153,7 @@ h3{
     z-index:0;
 
     display:flex;
-
+    justify-content: space-between;
     position:relative;
     top:25px;
 
@@ -246,7 +247,7 @@ h3{
     background-color: #353535;
     margin:auto;
     position:relative;
-    top:-30px;
+    top:-50px;
 }
 .i{
     padding-right:10px;
