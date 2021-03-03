@@ -1,7 +1,9 @@
 h1{
     font-family: 'Shrikhand', cursive;
 }
-
+h2{
+    font-weight: bolder;
+}
 .Texte{
     font-family: 'Roboto', sans-serif;
 }
@@ -69,13 +71,14 @@ header{
 .txtFon{
     margin-left:25px;
 }
+
 #Restaurants{
     background-color: #f6f6f6;
     padding-bottom:10px;
     align-items: center;
 }
 .DivRestau{
-
+    font-family: 'Roboto', sans-serif;
     width: 400px;
     padding-top: 0;
     justify-self: center;
@@ -198,6 +201,7 @@ header{
     padding-top:50px;
     background-color: #353535;
     margin:auto;
+    font-family: 'Roboto', sans-serif;
 }
 .i{
     padding-right:10px;
