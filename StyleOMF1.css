@@ -71,7 +71,12 @@ header{
 .txtFon{
     margin-left:25px;
 }
-
+.taille:hover{
+    background-color: #f5edff;
+}
+.taille:hover > .mar{
+    color:#9356dc;
+}
 #Restaurants{
     background-color: #f6f6f6;
     padding-bottom:10px;

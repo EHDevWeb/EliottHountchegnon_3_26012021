@@ -26,8 +26,8 @@ h1{
     margin:auto;
     display: flex;
 }
-h2{
 
+.titre{
     margin-left: 2%;
     display:flex;
     justify-content: space-between;
@@ -87,7 +87,10 @@ h3{
 
     width:40px;
 }
-
+.inline{
+    position:relative;
+    top: 27px;
+}
 .coeur:hover > .cV{
     display:none;
 }
