@@ -134,6 +134,7 @@ h3{
     margin:auto;
     position:relative;
     top:-50px;
+    font-family: 'Roboto', sans-serif;
 }
 .i{
     padding-right:10px;
@@ -174,9 +175,9 @@ h3{
     background-color: #99eed1bc;
     transition: 0.5s;
     width: 0px;
-    height:100px;
+    height:101px;
     position:relative;
-    top:-14px;
+    top:-42px;
 }
 .inf{
     display:flex;
@@ -189,7 +190,7 @@ h3{
 .Accom{
     width:350px;
     text-align: left;
-    margin-top:50px;
+    margin-top:20px;
     z-index:0;
     white-space: nowrap;
     overflow: hidden;
@@ -207,7 +208,7 @@ h3{
 }
 .prix{
     justify-self: right;
-    margin-top:50px;
+    margin-top:20px;
     padding-right: 8px;
     padding-left: 5px;
 
@@ -223,7 +224,7 @@ h3{
     color: #99eed1bc;
     position: relative;
     left:318px;
-    bottom:102px;
+    bottom:130px;
     z-index: 1;
     display: none;
     background-color: white;
